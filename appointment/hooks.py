@@ -10,6 +10,8 @@ app_email = "frappe@wh"
 app_license = "MIT"
 fixtures = ["Workflow"]
 fixtures = ["User"]
+fixtures = ["Workflow Action"]
+fixtures = ["Workflow State"]
 # Includes in <head>
 # ------------------
 
