@@ -9,6 +9,7 @@ app_color = "grey"
 app_email = "frappe@wh"
 app_license = "MIT"
 fixtures = ["Workflow"]
+fixtures = ["User"]
 # Includes in <head>
 # ------------------
 
