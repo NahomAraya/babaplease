@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-17 12:12:17.928704",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "code",
+  "service",
+  "customer_info",
+  "customer_phone"
+ ],
+ "fields": [
+  {
+   "fieldname": "code",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Service",
+   "options": "Jijjiirraa Maqaa\nCittuu Lafaa Walitti Makuu\nCittuu Lafaa Adda Qooduu\nDhorka Baankii Galmeessuu\nDhorka Baankii Kaasuu\nDhorka Mana Murtii Galmeessuu\nAjaja Mana Murtii\nTajaajila \u2018Scanning\u2019\nBakka Bu\u2019insa Wal Qabsiisuu\nRagaa Qulqulleessuu (Clearance)\nGaaffii Lafa Tajaajila Adda Addaa\nMurtii Lafa Inverestimeentii Simachuu\nKallattii Sirreessuu(Northing Correction)\nWaldaa fi \u2018Real Estate\u2019 Keessaa Kaartaa Dhuunfaa Baafachuu\nGaraagarummaa Bal\u2019ina Qabiyyee Lafaa (TOLETANCE LIMIT) Sirreessuu\nLafa Of Danda\u2019ee Hin Misoomne Dabaluu\nQabiyyee Durii Fi ISADD Mirkaneessuu\nDhimma Kaadaasteraa\nRagaaleen Abbaa Dhimmaa Harkaa Bade Yoo Badan\nKomii Fi Dhimmoota Biroo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_info",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "customer_phone",
+   "fieldtype": "Data",
+   "label": "Customer Phone"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-17 12:26:41.833495",
+ "modified_by": "Administrator",
+ "module": "Appointment",
+ "name": "Customer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

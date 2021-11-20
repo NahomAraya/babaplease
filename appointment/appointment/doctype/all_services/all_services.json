@@ -1,0 +1,140 @@
+{
+ "_assign": "[\"infodeskuser1@email.com\", \"windowuser1@email.com\", \"windowuser17@email.com\", \"windowuser2@email.com\", \"windowuser3@email.com\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-19 11:45:24.653921",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_code",
+  "customer_name",
+  "customer_phone",
+  "service",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "customer_phone",
+   "fieldtype": "Data",
+   "label": "Customer Phone"
+  },
+  {
+   "fieldname": "service",
+   "fieldtype": "Select",
+   "label": "Service",
+   "options": "Jijjiirraa Maqaa\nCittuu Lafaa Walitti Makuu\nCittuu Lafaa Adda Qooduu\nDhorka Baankii Galmeessuu\nDhorka Baankii Kaasuu\nDhorka Mana Murtii Galmeessuu\nAjaja Mana Murtii\nTajaajila \u2018Scanning\u2019\nBakka Bu\u2019insa Wal Qabsiisuu\nRagaa Qulqulleessuu (Clearance)\nGaaffii Lafa Tajaajila Adda Addaa\nMurtii Lafa Inverestimeentii Simachuu\nKallattii Sirreessuu(Northing Correction)\nWaldaa fi \u2018Real Estate\u2019 Keessaa Kaartaa Dhuunfaa Baafachuu\nGaraagarummaa Bal\u2019ina Qabiyyee Lafaa (TOLETANCE LIMIT) Sirreessuu\nLafa Of Danda\u2019ee Hin Misoomne Dabaluu\nQabiyyee Durii Fi ISADD Mirkaneessuu\nDhimma Kaadaasteraa\nRagaaleen Abbaa Dhimmaa Harkaa Bade Yoo Badan\nKomii Fi Dhimmoota Biroo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "All Services",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-11-19 16:28:06.057656",
+ "modified_by": "Administrator",
+ "module": "Appointment",
+ "name": "All Services",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "InfoDeskUser",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "WindowUser1",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "WindowUser17",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "WindowUser2",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "WindowUser3",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "InfoDesk.-###",
+ "creation": "2021-11-14 14:39:24.066354",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "queue_number",
+  "customer_info",
+  "query",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "queue_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Queue Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_info",
+   "fieldtype": "Data",
+   "label": "Customer Info"
+  },
+  {
+   "fieldname": "query",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Query ",
+   "options": "Jijjiirraa Maqaa\nCittuu Lafaa Walitti Makuu\nCittuu Lafaa Adda Qooduu\nDhorka Baankii Galmeessuu\nDhorka Baankii Kaasuu\nDhorka Mana Murtii Galmeessuu\nAjaja Mana Murtii\nTajaajila \u2018Scanning\u2019\nBakka Bu\u2019insa Wal Qabsiisuu\nRagaa Qulqulleessuu (Clearance)\nGaaffii Lafa Tajaajila Adda Addaa\nMurtii Lafa Inverestimeentii Simachuu\nKallattii Sirreessuu(Northing Correction)\nWaldaa fi \u2018Real Estate\u2019 Keessaa Kaartaa Dhuunfaa Baafachuu\nGaraagarummaa Bal\u2019ina Qabiyyee Lafaa (TOLETANCE LIMIT) Sirreessuu\nLafa Of Danda\u2019ee Hin Misoomne Dabaluu\nQabiyyee Durii Fi ISADD Mirkaneessuu\nDhimma Kaadaasteraa\nRagaaleen Abbaa Dhimmaa Harkaa Bade Yoo Badan\nKomii Fi Dhimmoota Biroo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nIn queue\nCancelled\nAppointment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-17 12:06:42.282082",
+ "modified_by": "Administrator",
+ "module": "Appointment",
+ "name": "Info Desk",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
